@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50439583423621f43b82ad2a8dea7de2, type: 3}
+  m_Name: GremDatabaseSO
+  m_EditorClassIdentifier: 
+  grems:
+  - id: Basic_Grem
+    isItem: 0
+    defaultSprite: {fileID: 4608961988614087275, guid: eda2dbca8c1983d4b8012a4c33fcb27c, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    behaviors:
+    - behaviorName: GremWander
+      moveSpeed: 2
+      wanderRadius: 2
+      minMoveTime: 4
+      minPauseTime: 1.5
+      maxPauseTime: 3
+      padding: 0.3
+    idleAnimation: {fileID: 7400000, guid: 72497e329698cd84c81f21c0cb505848, type: 2}
+    walkAnimation: {fileID: 7400000, guid: 82419a7f0d890e04585dd68d4ce4238b, type: 2}
+    clickAnimation: {fileID: 0}
+    clickSound: {fileID: 0}
